@@ -21,12 +21,7 @@ function LandingPage() {
                     initial={{ width: 0 }}
                     animate={{ width: "8vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    style={{
-                      backgroundImage: `url(/src/assets/mnky.png)`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "cover",
-                    }}
-                    className=" mr-[1vw] w-[8vw] rounded-md h-[5vw] -top-[1.5vw] relative "
+                    className=" mr-[1vw] w-[8vw] rounded-md h-[5vw] -top-[1.5vw] bg-green-500 relative "
                   ></motion.div>
                 )}
                 <h1 className=" uppercase text-[8vw] leading-[6.5vw] text-white font-['Founders_Grotesk_X-Condensed'] font-semibold">
