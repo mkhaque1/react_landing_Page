@@ -21,7 +21,7 @@ function Cards() {
         <div className=" card relative w-1/2 flex justify-center items-center h-full bg-zinc-800 rounded-xl">
           <img
             className="w-full h-full "
-            src="/src/assets/brox-01.jpg"
+            src="https://mkhaque.com/wp-content/uploads/2023/09/brox-01.jpg"
             alt=""
           />
           <div className=" absolute bg-gradient-to-r from-pink-600 to-purple-600 blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt left-10 bottom-10 px-10 py-3 border-[1px] text-sm border-zinc-300 rounded-full">
@@ -31,7 +31,7 @@ function Cards() {
         <div className=" card relative w-1/2 flex justify-center items-center h-full bg-zinc-800 rounded-xl">
           <img
             className="w-full h-full "
-            src="/src/assets/brox-03.jpg"
+            src="https://mkhaque.com/wp-content/uploads/2023/09/brox-03.jpg"
             alt=""
           />
           <button className=" absolute left-10 bottom-10 px-5 py-1 border-[1px] text-sm border-zinc-300 rounded-full">
