@@ -6,7 +6,7 @@ function Navbar() {
     <div className=" fixed w-full z-[999] backdrop-blur-lg px-20 py-5 font-['Neue_Montreal'] flex justify-between">
       <div className="logo">
         <a href="#">
-          <img className=" w-10" src="/src/assets/LOGO.png" alt="" />
+          <img className=" w-10" src="/src/assets/logo.png" alt="" />
         </a>
       </div>
       <div className="links flex gap-10">
