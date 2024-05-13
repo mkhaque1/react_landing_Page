@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo1 from "../assets/logo.png";
 
 function Navbar() {
   return (
     <div className=" fixed w-full z-[999] backdrop-blur-lg px-20 py-5 font-['Neue_Montreal'] flex justify-between">
       <div className="logo">
         <a href="#">
-          <img className=" w-10" src={logo} alt="logo" />
+          <img className=" w-10" src={logo1} alt="logo" />
         </a>
       </div>
       <div className="links flex gap-10">
