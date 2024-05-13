@@ -117,7 +117,7 @@ function Projects() {
           <div className="card w-full h-full rounded-xl  overflow-hidden">
             <img
               className="w-full  bg-cover hover:blur-sm transition duration-300"
-              src="./src/assets/mnky.png"
+              src="src/assets/mnky.png"
               alt=""
             />
           </div>
