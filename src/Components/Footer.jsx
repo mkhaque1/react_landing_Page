@@ -10,7 +10,7 @@ function Footer() {
     >
       <div className="w-1/2 h-full flex flex-col justify-between">
         <div className="heading">
-          <h1 className=" uppercase text-[5vw] font-secondary font-semibold text-white px-20 pt-20 leading-none">
+          <h1 className=" uppercase text-[5vw] font-['Founders_Grotesk_X-Condensed'] font-semibold text-white px-20 pt-20 leading-none">
             Pyonet <br />
             your Choice
           </h1>
@@ -20,7 +20,7 @@ function Footer() {
         </h3>
       </div>
       <div className="w-1/2">
-        <h1 className=" uppercase text-[5vw] font-secondary font-semibold text-white px-20 pt-20 leading-none">
+        <h1 className=" uppercase text-[5vw] font-['Founders_Grotesk_X-Condensed'] font-semibold text-white px-20 pt-20 leading-none">
           presentation
         </h1>
         <div className="details p-20">

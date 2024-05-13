@@ -126,7 +126,7 @@ function Projects() {
       <div className="w-full mt-20 flex justify-center text-center items-center">
         <div class="relative group">
           <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-          <button class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+          <button class="relative px-7 font-[Neue_Montreal] py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
             <span class="flex items-center space-x-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,9 +143,9 @@ function Projects() {
                 />
               </svg>
 
-              <span class="pr-6 text-gray-100">View More..</span>
+              <span class="pr-6 font-light text-gray-100">View More..</span>
             </span>
-            <span class="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">
+            <span class="pl-6 text-indigo-400 font-light group-hover:text-gray-100 transition duration-200">
               See what's new &rarr;
             </span>
           </button>

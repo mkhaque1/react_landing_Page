@@ -11,7 +11,9 @@ function About() {
       </h2>
       <div className=" w-full flex gap-5 mt-32 border-t-[1px] border-sky-300">
         <div className="w-1/2 mt-10">
-          <h2 className=" text-7xl mb-10">Our approach :</h2>
+          <h2 className=" text-7xl font-['Founders_Grotesk_X-Condensed'] font-semibold tracking-wide capitalize mb-10">
+            Our approach :
+          </h2>
           <Button text="Read More" />
         </div>
         <div className="w-1/2 h-[30vw] mt-10 rounded-3xl bg-slate-700">
