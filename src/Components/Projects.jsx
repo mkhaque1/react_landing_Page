@@ -1,6 +1,8 @@
 import { motion, useAnimation } from "framer-motion";
 import React from "react";
-import Button from "./Button";
+import mnky from "../assets/mnky.png";
+import lms from "../assets/lms.png";
+import pyonet from "../assets/pyonet.jpg";
 
 function Projects() {
   const cards = [useAnimation(), useAnimation()];
@@ -65,7 +67,7 @@ function Projects() {
           <div className="card w-full rounded-xl  overflow-hidden">
             <img
               className="w-full  bg-cover hover:blur-sm transition duration-300"
-              src="/src/assets/pyonet.jpg"
+              src={pyonet}
               alt=""
             />
           </div>
@@ -92,7 +94,7 @@ function Projects() {
           <div className="card w-full h-full rounded-xl  overflow-hidden">
             <img
               className="w-full  bg-cover hover:blur-sm transition duration-300"
-              src="/src/assets/lms.png"
+              src={lms}
               alt=""
             />
           </div>
@@ -117,7 +119,7 @@ function Projects() {
           <div className="card w-full h-full rounded-xl  overflow-hidden">
             <img
               className="w-full  bg-cover hover:blur-sm transition duration-300"
-              src="src/assets/mnky.png"
+              src={mnky}
               alt=""
             />
           </div>

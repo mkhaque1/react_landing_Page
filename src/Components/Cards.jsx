@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
-import { GiClick } from "react-icons/gi";
+import image1 from "../assets/brox-01.jpg";
+import image2 from "../assets/brox-03.jpg";
 
 function Cards() {
   return (
@@ -19,21 +20,13 @@ function Cards() {
       </div>
       <div className="cardcontainer w-1/2 h-[30vw] flex gap-5 justify-center items-center">
         <div className=" card relative w-1/2 flex justify-center items-center h-full bg-zinc-800 rounded-xl">
-          <img
-            className="w-full h-full "
-            src="https://mkhaque.com/wp-content/uploads/2023/09/brox-01.jpg"
-            alt=""
-          />
+          <img className="w-full h-full " src={image1} alt="" />
           <div className=" absolute bg-gradient-to-r from-pink-600 to-purple-600 blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt left-10 bottom-10 px-10 py-3 border-[1px] text-sm border-zinc-300 rounded-full">
             View Project
           </div>
         </div>
         <div className=" card relative w-1/2 flex justify-center items-center h-full bg-zinc-800 rounded-xl">
-          <img
-            className="w-full h-full "
-            src="https://mkhaque.com/wp-content/uploads/2023/09/brox-03.jpg"
-            alt=""
-          />
+          <img className="w-full h-full " src={image2} alt="" />
           <button className=" absolute left-10 bottom-10 px-5 py-1 border-[1px] text-sm border-zinc-300 rounded-full">
             View Project
           </button>
