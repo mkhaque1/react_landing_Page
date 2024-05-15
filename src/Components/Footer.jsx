@@ -10,7 +10,7 @@ function Footer() {
     >
       <div className="w-1/2 h-full flex flex-col justify-between">
         <div className="heading">
-          <h1 className=" uppercase text-[5vw] font-['Founders_Grotesk_X-Condensed'] font-semibold text-white px-20 pt-20 leading-none">
+          <h1 className=" uppercase text-[5vw] font-primary font-bold tracking-tighter text-white px-20 pt-20 leading-none">
             Pyonet <br />
             your Choice
           </h1>
@@ -20,46 +20,28 @@ function Footer() {
         </h3>
       </div>
       <div className="w-1/2">
-        <h1 className=" uppercase text-[5vw] font-['Founders_Grotesk_X-Condensed'] font-semibold text-white px-20 pt-20 leading-none">
+        <h1 className=" uppercase text-[5vw] font-primary tracking-tighter font-bold text-white px-20 pt-20 leading-none">
           presentation
         </h1>
         <div className="details p-20">
-          <a
-            className=" text-md block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md block font-secondary font-light" href="#">
             Linkedin
           </a>
-          <a
-            className=" text-md  block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md  block font-secondary font-light" href="#">
             Instagram
           </a>
-          <a
-            className=" text-md block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md block font-secondary font-light" href="#">
             Facebook
           </a>
         </div>
         <div className="details  p-20">
-          <a
-            className=" text-md block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md block font-secondary font-light" href="#">
             Home
           </a>
-          <a
-            className=" text-md block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md block font-secondary font-light" href="#">
             About
           </a>
-          <a
-            className=" text-md block font-[Neue_Montreal] font-light"
-            href="#"
-          >
+          <a className=" text-md block font-secondary font-light" href="#">
             Contact
           </a>
         </div>

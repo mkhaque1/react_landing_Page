@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Anton", "sans-serif"],
+        primary: ["Wix Madefor Display", "sans-serif"],
         secondary: ["Poppins", "sans-serif"],
       },
     },

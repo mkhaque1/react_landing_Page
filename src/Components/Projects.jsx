@@ -19,7 +19,7 @@ function Projects() {
   return (
     <div className="w-full py-20 ">
       <div className=" w-full px-20 border-b-[1px] border-zinc-600 pb-10">
-        <h1 className="text-7xl font-secondary font-thin">Features Projects</h1>
+        <h1 className="text-7xl font-secondary font-bold">Features Projects</h1>
       </div>
       <div className="crads w-full flex gap-20 mt-10 px-20">
         <motion.div

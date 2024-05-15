@@ -24,7 +24,7 @@ const Button = ({ text }) => {
       }}
       className="px-8 py-3 rounded-full relative radial-gradient"
     >
-      <span className=" text-neutral-100 tracking-tight font-light h-full w-full block relative linear-mask">
+      <span className=" text-neutral-100 font-primary tracking-tight font-light h-full w-full block relative linear-mask">
         {text}
       </span>
       <span className="block absolute rounded-full inset-0 p-px linear-overlay" />

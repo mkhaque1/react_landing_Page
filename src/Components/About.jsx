@@ -5,13 +5,13 @@ import Button from "./Button";
 function About() {
   return (
     <div className="w-full p-28 bg-zinc-900 text-white rounded-tl-3xl rounded-tr-3xl">
-      <h2 className="xl:text-[4vw] lg:text-[3vw] sm:text-[2vw] font-[Neue_Montreal] xl:leading-[4vw] lg:leading-[4vw] sm:leading-3 ">
+      <h2 className="xl:text-[4vw] lg:text-[3vw] sm:text-[2vw] font-primary xl:leading-[4vw] lg:leading-[4vw] sm:leading-3 ">
         Pyonet, a dynamic and innovative online freelance digital agency, stands
         at the forefront of transforming ideas into digital masterpieces.
       </h2>
       <div className=" w-full flex gap-5 mt-32 border-t-[1px] border-sky-300">
         <div className="w-1/2 mt-10">
-          <h2 className=" text-7xl font-['Founders_Grotesk_X-Condensed'] font-semibold tracking-wide capitalize mb-10">
+          <h2 className=" text-7xl font-primary font-semibold tracking-tighter capitalize mb-10">
             Our approach :
           </h2>
           <Button text="Read More" />

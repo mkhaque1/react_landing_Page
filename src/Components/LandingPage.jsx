@@ -21,10 +21,10 @@ function LandingPage() {
                     initial={{ width: 0 }}
                     animate={{ width: "8vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className=" mr-[1vw] w-[8vw] rounded-md h-[5vw] -top-[1.5vw] bg-green-500 relative "
+                    className=" mr-[1vw] w-[8vw] rounded-md h-[5.5vw] -top-[0.3vw] bg-green-500 relative "
                   ></motion.div>
                 )}
-                <h1 className=" uppercase text-[8vw] leading-[6.5vw] text-white font-['Founders_Grotesk_X-Condensed'] font-semibold">
+                <h1 className=" uppercase text-[8vw] leading-[6.5vw] text-white font-secondary tracking-tighter font-bold">
                   {item}
                 </h1>
               </div>

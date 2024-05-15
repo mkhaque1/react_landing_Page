@@ -14,7 +14,7 @@ function Marquee() {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 12 }}
-          className="text-[13vw] relative font-semibold leading-none tracking-tighter text-white uppercase  font-primary"
+          className="text-[13vw] relative font-bold leading-none tracking-tighter text-white uppercase  font-secondary"
         >
           WE ARE PYONET
         </motion.h1>
@@ -22,9 +22,9 @@ function Marquee() {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 12 }}
-          className="text-[13vw] relative font-semibold leading-none tracking-tighter text-white uppercase font-primary "
+          className="text-[13vw] relative font-bold leading-none tracking-tighter text-white uppercase font-secondary "
         >
-          WE ARE PYONET
+          All in One Here
         </motion.h1>
       </div>
     </div>
