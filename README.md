@@ -1,6 +1,8 @@
 # React + Vite
 
-live: [https://react-landing-page-black-zeta.vercel.app/](https://react-landing-page-820u0ddfl-mkhaque1s-projects.vercel.app/)
+#start project
+#npm run dev --> in Terminal
+#open local server or check live link top right :
 #Not-responsive (Only Testing!)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
